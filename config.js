@@ -22,9 +22,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "254728782591" // Developer Contact
+global.devs = "254720008703" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "admin";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254720008703";
 
 
 
@@ -66,12 +66,12 @@ module.exports = {
   VERSION : process.env.VERSION || "V.1.2.8",
   caption : process.env.CAPTION || "©²⁰²⁴ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o"),
  
-  author : process.env.PACK_AUTHER|| "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+  author : process.env.PACK_AUTHER|| "Mwaoch",
+  packname: process.env.PACK_NAME || "Mwaoch",
+  botname : process.env.BOT_NAME  || "Gifted tech",
   ownername:process.env.OWNER_NAME|| "It's GiftedTech",
 
-  sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
+  sessionName:process.env.SESSION_ID || "",  // SESSION_12_40_02_21_eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidU02QU4yWXdpZms4NFM2SkxnVExLME5pVVJOa05oeWh2cmozSWh0ajFWbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0J0enVURTVMcVpReDd3WXRSTEkvQjNtU05VbVR3a09pVmNHdkt5eDNEaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlRXJDRkQyMkUwUXp3dWh3YUV3Q0xHK2pNV3drUnJzdkZoOEhjVGFCWTBFPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJoVzFPQ25JVU9jNGdLRGpMSk1QekVzZ1dUeVBWNHJGSEFYMzhmWTV5cVRJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFPa3p6SXErMFozaU5MdUFLWjZrQzNSbG0xQ2p3N25pQWtnZ3VHVjZwWFk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBuam5iZzlkejdXZmdLT2VHNGltN3RhTG9neXNsbW5oUDdjbVozSGRkVWc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0ZQcVhINGc2ZmFTbFE5NmVCVzFmNCtTeVNGdWovUGNBTlA2WVNPeHBHOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTVQ3SGpxY2FlOU9PMEJrT3lab3J4YkZrRkxtRGFjKzB3UmlOaTBDLzNGQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im1xL0p1bUpMZFBqWEo3bEJ1RUNWTTI1K3EwM0s2QUE5dHZ0VHYwRC9PMVRkTkwxS1NJVW5MOUM3NGFTOERUdTRoZnh1VGE5YjJ3NEZyUE1meE9aWkJ3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTQsImFkdlNlY3JldEtleSI6ImZGT3djWkRoMWFLaXlwWWlKTVcyQ3FJQzhWL0l3OWQ4WnMxc1laOVdSK009IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InVlRExxdnZ5VFlTdXRLZzZFVWRpc3ciLCJwaG9uZUlkIjoiMTBlODRlNDAtZjk3OS00YzU3LWI4NGUtOTIzYTdjNDk1MmYwIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImpSTDJ0UHRGYW9SbkljZFVLaEZPbjQzSk00WT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRVkFUT0lDRVRGZ0pHcTdvSHd2bzRnR0lWZjQ9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiRjVFQkwzSkgiLCJtZSI6eyJpZCI6IjI1NDcyMDAwODcwMzoxMEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLwnZCI8J2QrfCdkLNf8J2QjPCdkLDwnZCa8J2QqPCdkJzwnZCh8J+YnPCfkrUifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ002TXVNZ0ZFSy9lMTY0R0dBTT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiMWpUZGtGMVJuSmNwWG5nNEZVcGcybW40VVNWZ28rMmsvTi9uczBrZUNFOD0iLCJhY2NvdW50U2lnbmF0dXJlIjoicUJGR2Fyd0J0K3BWcUcrSHQ3U2sveFY2QkV5ekdFVE1ON0RUZEF1RHVxcVUraWNkZ2J3OFVwM3FodzRFVEFFaS85TlhCQXRzSG5yMElwY0ZJVFVLQWc9PSIsImRldmljZVNpZ25hdHVyZSI6IlByWW5DVGZjc3Nwb2QzSENTUW94eTVzdW5RUlZ3R3NuV1d5TmVqeStSWUVrQnlUOGtyQUZWMWM0eEJlVkdxUi9mRVFaQmpsTmlGSzFQQ3hLZkd1Y0NRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0NzIwMDA4NzAzOjEwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmRZMDNaQmRVWnlYS1Y1NE9CVktZTnBwK0ZFbFlLUHRwUHpmNTdOSkhnaFAifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MDg1MTkyMTgsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBTU9QIn0=
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
